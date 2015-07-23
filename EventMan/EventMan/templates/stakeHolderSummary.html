@@ -1,0 +1,26 @@
+        <!-- Service section start -->
+        <div class="section primary-section" id="service">
+            <div class="container">
+                <!-- Start title section -->
+                <div class="title">
+                    <h1>StakeHolders</h1>
+                    <!-- Section's title goes here -->
+                    <p>Our Stakeholders</p>
+                    <!--Simple description for section goes here. -->
+                </div>
+                <div class="row-fluid">
+                    <div class="span4" ng-repeat="stakeHolder in stakeHolders">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/Service1.png" alt="service 1">
+                            </div>
+                            <h3>{{stakeHolder.Id}}</h3>
+                            <p>{{stakeHolder.Name}}, {{stakeHolder.Email}}, {{stakeHolder.Mobile}}, 
+                                {{stakeHolder.Username}}, {{stakeHolder.Password}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service section end -->

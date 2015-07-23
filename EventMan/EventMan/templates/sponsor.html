@@ -1,0 +1,59 @@
+
+        <!-- Sponsor section start -->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class=" title">
+                    <h1>Have You Seen our Works?</h1>
+                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                </div>
+                
+                <!-- Start details for Sponsor project 1 -->
+                <div id="single-project" >
+                    <div id="slidingDiv{{sponsor.Id}}" class="toggleDiv row-fluid single-project" 
+                        ng-repeat="sponsor in sponsors"  ng-show="isPlussed(sponsor.Id)">
+                        <div class="span6">
+                            <img src="images/Sponsor0{{sponsor.Id}}.png" alt="project {{sponsor.Id}}" />
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>{{sponsor.Name}}</h3>
+                                    <span class="show_hide close">
+                                        <i ng-click="unplussed(sponsor.Id)" class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Managers</span>
+                                        <div ng-repeat="manager in managers">*{{manager.Name}}* </div>
+                                        </div>                                   
+                                    <div>
+                                        <span>Contact</span>{{sponsor.Mobile}}</div>
+                                    <div>
+                                        <span>Link</span>{{sponsor.Url}}</div>
+                                </div>
+                                <p>{{sponsor.Description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for Sponsor project 1 -->
+                    <!-- End details for Sponsor project 9 -->
+                    <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4 mix web mix_all" style="  display: inline-block; opacity: 1;"
+                            ng-repeat="sponsor in sponsors" >
+                            <div class="thumbnail animated fadeInDown" ng-hide="isPlussed(sponsor.Id)">
+                                <img src="images/Sponsor01.png" alt="project {{sponsor.Id}}">
+                                <a ng-href="#/Sponsors" class="more show_hide" rel="#slidingDiv{{sponsor.Id}}">
+                                    <i ng-click="plussed(sponsor.Id)" class="icon-plus"></i>
+                                </a>
+                                <h3>{{sponsor.Name}}</h3>
+                                <p>{{sponsor.Name}}...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Sponsor section end -->

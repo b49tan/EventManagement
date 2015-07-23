@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMan", "EventMan\EventMan.csproj", "{4C627E19-C7E2-49F4-AF87-33F144CACA85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMan.Tests", "EventMan.Tests\EventMan.Tests.csproj", "{4D135D55-F8D8-4485-9C31-2B73E953A1A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C627E19-C7E2-49F4-AF87-33F144CACA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C627E19-C7E2-49F4-AF87-33F144CACA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C627E19-C7E2-49F4-AF87-33F144CACA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C627E19-C7E2-49F4-AF87-33F144CACA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D135D55-F8D8-4485-9C31-2B73E953A1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D135D55-F8D8-4485-9C31-2B73E953A1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D135D55-F8D8-4485-9C31-2B73E953A1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D135D55-F8D8-4485-9C31-2B73E953A1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+
+        <!-- Portfolio section start -->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class=" title">
+                    <h1>Have You Seen our Works?</h1>
+                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                </div>
+                <ul class="nav nav-pills">
+                    <li class="filter">
+                        <a ng-click="eventFilter(0)">All</a>
+                    </li>
+                    <li class="filter">
+                        <a ng-click="eventFilter(1)">My</a>
+                    </li>
+                </ul>
+                <!-- Start details for portfolio project 1 -->
+                <div id="single-project" >
+                    <div id="slidingDiv{{event.Id}}" class="toggleDiv row-fluid single-project" 
+                        ng-repeat="event in events"  ng-show="isPlussed(event.Id)">
+                        <div class="span6">
+                            <img src="images/Portfolio0{{event.Id}}.png" alt="project {{event.Id}}" />
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>{{event.Name}}</h3>
+                                    <span class="show_hide close">
+                                        <i ng-click="unplussed(event.Id)" class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Managers</span>
+                                        <div ng-repeat="manager in managers">*{{manager.Name}}* </div>
+                                        </div>
+                                    <div>
+                                        <span>Date</span>{{event.Time | date}}</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>{{event.Url}}</div>
+                                </div>
+                                <p>{{event.Description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 1 -->
+                    <!-- End details for portfolio project 9 -->
+                    <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4 mix web mix_all" style="  display: inline-block; opacity: 1;"
+                            ng-repeat="event in events" >
+                            <div class="thumbnail animated fadeInDown" ng-hide="isPlussed(event.Id)">
+                                <img src="images/Portfolio01.png" alt="project {{event.Id}}">
+                                <a ng-href="#/Events" class="more show_hide" rel="#slidingDiv{{event.Id}}">
+                                    <i ng-click="plussed(event.Id)" class="icon-plus"></i>
+                                </a>
+                                <h3>{{event.Name}}</h3>
+                                <p>{{event.Name}}...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio section end -->
