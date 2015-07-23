@@ -385,33 +385,6 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
-    <Content Include="assets\.sass-cache\3e2984aa8dc687413fe04d07a56864b0bc352e02\_bg.scssc" />
-    <Content Include="assets\.sass-cache\3e2984aa8dc687413fe04d07a56864b0bc352e02\_page.scssc" />
-    <Content Include="assets\.sass-cache\3e2984aa8dc687413fe04d07a56864b0bc352e02\_typography.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_banner.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_bg.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_footer.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_header.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_main.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_nav.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_notify-form.scssc" />
-    <Content Include="assets\.sass-cache\416ef32e70133cd421b96ba452eb2ac786ea0d19\_signup-form.scssc" />
-    <Content Include="assets\.sass-cache\87a8ff9934eeff440c9c0c2118f6f51e865bd172\ie8.scssc" />
-    <Content Include="assets\.sass-cache\87a8ff9934eeff440c9c0c2118f6f51e865bd172\ie9.scssc" />
-    <Content Include="assets\.sass-cache\87a8ff9934eeff440c9c0c2118f6f51e865bd172\main.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_box.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_button.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_form.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_grid-demo.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_icon.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_image.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_list.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_section.scssc" />
-    <Content Include="assets\.sass-cache\920148cb95073097b1ecc72cb5d5b888545b9cc7\_table.scssc" />
-    <Content Include="assets\.sass-cache\a365a03aed6ff283a23b9df8af64a59cd9d80f02\_functions.scssc" />
-    <Content Include="assets\.sass-cache\a365a03aed6ff283a23b9df8af64a59cd9d80f02\_mixins.scssc" />
-    <Content Include="assets\.sass-cache\a365a03aed6ff283a23b9df8af64a59cd9d80f02\_skel.scssc" />
-    <Content Include="assets\.sass-cache\a365a03aed6ff283a23b9df8af64a59cd9d80f02\_vars.scssc" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
