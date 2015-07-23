@@ -20,14 +20,21 @@ namespace EventMan
         {
         }
     
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
+        // protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+         //   throw new UnintentionalCodeFirstException();
+        //}
     
         public DbSet<Event> Events { get; set; }
         public DbSet<Registration> Registrations { get; set; }
         public DbSet<StakeHolder> StakeHolders { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            Database.SetInitializer(
+                new MigrateDatabaseToLatestVersion<EventManDbEntities, Migrations.Configuration>());
+        }
+
         public DbSet<Sponsor> Sponsors { get; set; }
     }
 }

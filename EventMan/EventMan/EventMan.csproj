@@ -145,6 +145,7 @@
     <Compile Include="Logic\CentralStore.cs" />
     <Compile Include="Logic\CentralLogic.cs" />
     <Compile Include="Logic\SMSSender.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
